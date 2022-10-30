@@ -7,8 +7,8 @@ def main():
     config_file = configparser.ConfigParser()
     # Add section AWS
     config_file.add_section("AWS")
-    config_file.set("AWS", "KEY", 'AKIAZALOWYKPIWTSANAJ')
-    config_file.set("AWS", "SECRET", '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')
+    config_file.set("AWS", "KEY", '***************')
+    config_file.set("AWS", "SECRET", '*******************')
     
     # ADD SECTION DWH
     config_file.add_section("DWH")
@@ -16,7 +16,7 @@ def main():
     config_file.set("DWH", "HOST", "**")
     config_file.set("DWH", "DB_NAME", "dwh")
     config_file.set("DWH", "DB_USER", "dwhuser")
-    config_file.set("DWH", "DB_PASSWORD", "Passw0rd")
+    config_file.set("DWH", "DB_PASSWORD", "**********")
     config_file.set("DWH", "DB_PORT", "5439")
     
     # cluster
